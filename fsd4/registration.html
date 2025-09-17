@@ -1,0 +1,109 @@
+<!--02/09/2025-->
+<!--Assignment2-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body bgcolor="beige">
+    <div style="background-color: rgb(22, 95, 95); color: beige" align="center">
+      <h1>TCS-MockVita Form</h1>
+    </div>
+    <br /><br />
+    <div align="center">
+      <table style="font-size: large">
+        <form action="#" method="POST">
+          <tr>
+            <td>
+              <label for="name">Enter Name: </label>
+            </td>
+            <td>
+              <input type="text" name="name" id="name" placeholder="John Doe" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="age">Enter Age: </label>
+            </td>
+            <td>
+              <input type="number" name="age" id="age" min="18" max="25" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="college">Enter College: </label>
+            </td>
+            <td>
+              <select name="college" id="college">
+                <option value="ABESEC">ABESEC</option>
+                <option value="KIET">KIET</option>
+                <option value="AKGEC">AKGEC</option>
+                <option value="GL Bajaj">GL Bajaj</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="gender">Enter Gender: </label>
+            </td>
+            <td>
+              <input type="radio" name="gender" id="gender" />
+              <label for="gender">Male</label>
+              <input type="radio" name="gender" id="gender" />
+              <label for="gender">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email">Enter Mail address: </label>
+            </td>
+            <td>
+              <input
+                type="mail"
+                name="name"
+                id="email"
+                placeholder="sadaaizaz12@gmail.com"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="dob">Enter Date of Birth: </label>
+            </td>
+            <td>
+              <input
+                type="date"
+                name="cal"
+                id="don"
+                placeholder="sadaaizaz12@gmail.com"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="phone">Enter Phone Number: </label>
+            </td>
+            <td>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="+91-93695-87676"
+              />
+              <button>Generate OTP</button>
+            </td>
+          </tr>
+        </form>
+      </table>
+    </div>
+    <br />
+    <div align="center">
+      <button>Submit</button>
+      <button>Reset form</button>
+    </div>
+  </body>
+</html>
