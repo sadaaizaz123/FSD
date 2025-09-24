@@ -8,6 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
       #parent {
         border: 2px solid black;
         background-color: rgba(104, 9, 80, 0.764);
@@ -35,6 +39,43 @@
       #menu ul li a {
         text-decoration: none;
       }
+      #content {
+        background-color: pink;
+        font-family: "Times New Roman", Times, serif;
+        width: 500px;
+        float: left;
+        min-height: 200px;
+      }
+      #content h1 {
+        text-align: center;
+        text-decoration: underline;
+      }
+      #sidebar {
+        width: 500px;
+        background-color: lightblue;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        padding-left: 20px;
+        box-sizing: border-box;
+        float: left;
+        min-height: 200px;
+      }
+      #sidebar ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding-right: 10px;
+      }
+      #sidebar ul li a {
+        text-decoration: none;
+        color: red;
+      }
+      #footer {
+        background-color: orange;
+        min-height: 100px;
+      }
+      #footer h3 {
+        text-align: right;
+      }
     </style>
   </head>
   <body>
@@ -52,9 +93,32 @@
           <li><a href="">Result</a></li>
         </ul>
       </div>
-      <div id="content"></div>
-      <div id="sidebar"></div>
-      <div id="footer"></div>
+      <div id="content">
+        <h1>About CSE AIML</h1>
+        <p>
+          CSE AIML stands for Computer Science and Engineering with a
+          specialization in Artificial Intelligence and Machine Learning. It is
+          a four-year engineering degree that combines the core foundational
+          subjects of Computer Science with advanced topics and practical
+          training in AI and Machine Learning. This specialized program aims to
+          equip students with the skills to develop intelligent systems and
+          data-driven applications, focusing on areas like data science, deep
+          learning, robotics, and natural language processing
+        </p>
+      </div>
+      <div id="sidebar">
+        <h1>Institution B.Tech CSE Allied Branches</h1>
+        <ul>
+          <li><a href="">CSE-AIML</a></li>
+          <li><a href="">CSE-DS</a></li>
+          <li><a href="">CSE</a></li>
+          <li><a href="">IT</a></li>
+          <li><a href="">ELCE</a></li>
+          <li><a href="">CS</a></li>
+          <li><a href="">CE</a></li>
+        </ul>
+      </div>
+      <div id="footer"><h3>SADAAIZAZ@COPYRIGHT2025</h3></div>
     </div>
   </body>
 </html>
