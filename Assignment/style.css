@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-image: url('bgimg.jpg');
+}
+.header h1{
+    background-color: rgba(0, 0, 0, 0.626);
+    text-decoration: underline;
+    text-shadow: 5px;
+    padding-top: 30px;
+    padding-bottom: 32px;
+}
+.navbar{
+    text-align: center;
+    background: rgb(255, 212, 160);
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.navbar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.main h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+.left{
+    min-height: 200px;
+    min-width: 510px;
+    background-image: url('html.jpg');
+    color: aliceblue;
+}
+.left h2{
+    background-color: rgba(0, 0, 0, 0.327);
+}
+.left ul{
+    padding-top: 10px;
+}
+.left ul li{
+    list-style-type: none;
+}
+.left ul li a{
+    color: aliceblue;
+}
+.middle{
+    min-height: 200px;
+    min-width: 520px;
+    background-image: url('css.jpg');
+    color: aliceblue;
+}
+.middle h2{
+    background-color: rgba(0, 0, 0, 0.327);
+}
+.middle ul{
+    padding-top: 10px;
+}
+.middle ul li{
+    list-style-type: none;
+}
+.middle ul li a{
+    color: aliceblue;
+}
+.right{
+    min-height: 200px;
+    min-width: 520px;
+    background-image: url('html.jpg');    
+    color: aliceblue;
+}
+.right h2{
+    background-color: rgba(0, 0, 0, 0.327);
+}
+.right ul{
+    padding-top: 10px;
+}
+.right ul li{
+    list-style-type: none;
+}
+.right ul li a{
+    color: aliceblue;
+}
+.vid{
+    background-color: beige;
+}
+.footer {
+    background-color:burlywood;
+    min-height: 50px;
+}
+.footer h3 {
+    text-align: right;
+}
