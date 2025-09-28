@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Compass – Smart Career & Course Recommender</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom Styles -->
+    <style>
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background-color: #fdf6e3;
+      }
+      header {
+        background: linear-gradient(90deg, #264de4, #e67e22);
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
+      }
+      header h1 {
+        font-weight: bold;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      }
+      section {
+        padding: 60px 20px;
+      }
+      h2 {
+        color: #264de4;
+        margin-bottom: 20px;
+        text-decoration: underline;
+      }
+      .card {
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease;
+      }
+      .card:hover {
+        transform: translateY(-6px);
+      }
+      footer {
+        background-color: #deb887;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+        color: #4b3621;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>🚀 Career Compass</h1>
+      <p>Smart Career & Course Recommender</p>
+    </header>
+
+    <!-- Core Idea -->
+    <section class="container">
+      <h2>🎯 Core Idea</h2>
+      <p>
+        Career Compass is a smart web application where students can enter their
+        <strong>interests and skills</strong>, and instantly get recommendations
+        for:
+      </p>
+      <ul>
+        <li>Best career paths (Engineer, Designer, Data Scientist, etc.)</li>
+        <li>Matching online courses (YouTube, Coursera, Udemy, etc.)</li>
+        <li>Skill gap analysis with progress visualization</li>
+      </ul>
+    </section>
+
+    <!-- Features -->
+    <section class="container">
+      <h2>🔑 Key Features</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3">
+            <h5>📋 Interest Quiz</h5>
+            <p>
+              Students pick skills like Coding, Art, Math, Public Speaking. Fun
+              MCQ quiz option too!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3">
+            <h5>💼 Career Recommendations</h5>
+            <p>
+              JS maps skills → careers. Example: Coding + Math → Software
+              Engineer.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3">
+            <h5>📚 Course Suggestions</h5>
+            <p>
+              3–5 recommended courses per career (hardcoded JSON or free APIs).
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3">
+            <h5>📊 Skill Gap Analysis</h5>
+            <p>
+              Shows missing skills (e.g., HTML + CSS but missing JS). Visualized
+              via Chart.js.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3">
+            <h5>💾 Save My Plan</h5>
+            <p>
+              User’s career path + courses saved in Local Storage for later
+              viewing.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3">
+            <h5>🌙 UI Extras</h5>
+            <p>
+              Dark/Light mode, smooth animations, dashboard-style results page.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="container">
+      <h2>🛠️ Tech Stack</h2>
+      <ul>
+        <li><strong>Frontend:</strong> HTML, CSS, Bootstrap</li>
+        <li>
+          <strong>Logic:</strong> Vanilla JavaScript (arrays, objects, mapping)
+        </li>
+        <li><strong>Charts:</strong> Chart.js for skill gap visualization</li>
+        <li><strong>Data:</strong> JSON dataset of careers & courses</li>
+        <li><strong>Storage:</strong> LocalStorage for saving user plans</li>
+      </ul>
+    </section>
+
+    <!-- UI Flow -->
+    <section class="container">
+      <h2>🖼️ UI Flow</h2>
+      <ol>
+        <li>Homepage → Welcome + Start Quiz button</li>
+        <li>Quiz Page → Select skills/interests</li>
+        <li>
+          Results Page → Career Recommendation + Skill Gap Chart + Course
+          Suggestions
+        </li>
+        <li>My Plan Page → Saved career path + courses</li>
+      </ol>
+    </section>
+
+    <!-- Why It's Unique -->
+    <section class="container">
+      <h2>⚡ Why It Will Impress</h2>
+      <ul>
+        <li>Feels AI-powered but built with simple JavaScript mapping.</li>
+        <li>Not a basic app — it combines career + course + visualization.</li>
+        <li>Useful for students → professors appreciate practical utility.</li>
+        <li>Charts + modern UI → instant WOW factor.</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Career Compass | Project by Sada Aizaz</p>
+    </footer>
+  </body>
+</html>

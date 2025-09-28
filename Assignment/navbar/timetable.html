@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Class Time Table</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 20px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+      }
+      th,
+      td {
+        border: 1px solid #000;
+        padding: 6px;
+      }
+      td.day {
+        font-weight: bold;
+      }
+
+      th {
+        background: #f0f0f0;
+      }
+      .heading {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .heading h2,
+      .heading h3,
+      .heading h4 {
+        margin: 3px;
+      }
+      .sub-info {
+        margin-top: 15px;
+      }
+      .sub-info table {
+        width: 100%;
+      }
+      .footer {
+        margin-top: 20px;
+        font-size: 13px;
+      }
+      .recess {
+        background: #f9e6e6;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      <h2>ABES Engineering College, Ghaziabad</h2>
+      <h3>Class Time Table</h3>
+      <h4>Department: Computer Science & Engg. - AI & ML</h4>
+      <p>Course: B.Tech | Semester / Section - III B | Class Room No: KC 502</p>
+      <p>w.e.f : 22.08.2025 | Session 2025-26, Odd Semester</p>
+    </div>
+
+    <table>
+      <tr>
+        <th>Day \ Time</th>
+        <th>I<br />08:50-09:40</th>
+        <th>II<br />09:40-10:30</th>
+        <th>III<br />10:40-11:30</th>
+        <th>IV<br />11:30-12:20</th>
+        <th class="recess">RECESS<br />12:20-01:10</th>
+        <th>V<br />01:10-02:00</th>
+        <th>VI<br />02:00-02:50</th>
+        <th>VII<br />02:50-03:40</th>
+        <th>VIII<br />03:40-04:30</th>
+      </tr>
+
+      <tr>
+        <td class="day">Monday</td>
+        <td>BCS301<br />DJ</td>
+        <td>BCC302<br />PR</td>
+        <td colspan="2">
+          Domain Training (AI) KC501<br />
+          Domain Training (CC) KC502<br />
+          Domain Training (Networking) Lab 6<br />
+          Domain Training (Blockchain) KC504
+        </td>
+        <td class="recess">RECESS</td>
+        <td colspan="2">Data Structure Lab + Problem Solving<br />(DJ, AG)</td>
+        <td>BCS303<br />SN</td>
+        <td>BOE305<br />MM</td>
+      </tr>
+
+      <tr>
+        <td class="day">Tuesday</td>
+        <td>BCC302<br />PR</td>
+        <td>BCS303<br />SN</td>
+        <td>BCS301<br />DJ</td>
+        <td>BCS302<br />PP</td>
+        <td class="recess">RECESS</td>
+        <td>BOE305<br />MM</td>
+        <td>BCS352<br />NS, AKM</td>
+        <td colspan="2">
+          Web Designing Workshop + Full Development<br />VC, UD
+        </td>
+      </tr>
+
+      <tr>
+        <td class="day">Wednesday</td>
+        <td>BCS302<br />PP</td>
+        <td>BVE301<br />DA</td>
+        <td colspan="2">Data Structure Lab + Problem Solving<br />(DJ, AG)</td>
+        <td class="recess">RECESS</td>
+        <td>BOE305<br />MM</td>
+        <td>BCS301<br />DJ</td>
+        <td>BCS303<br />SN</td>
+        <td>Web Designing Workshop + Full Development<br />VC, UD</td>
+      </tr>
+
+      <tr>
+        <td class="day">Thursday</td>
+        <td>BCS303<br />SN</td>
+        <td>BCC302<br />PR</td>
+        <td colspan="2">
+          DT (AI) KC501<br />
+          DT (CC) KC502<br />
+          DT (Networking) Lab 6<br />
+          DT (Blockchain) KC504
+        </td>
+        <td class="recess">RECESS</td>
+        <td>VASS301<br />PR</td>
+        <td>BOE305<br />MM</td>
+        <td>BCS302<br />PP</td>
+        <td>BVE301<br />DA</td>
+      </tr>
+
+      <tr>
+        <td class="day">Friday</td>
+        <td>BOE305<br />MM</td>
+        <td>BCS302<br />PP</td>
+        <td colspan="2">
+          Web Designing Workshop + Full Development<br />VC, UD
+        </td>
+        <td class="recess">RECESS</td>
+        <td>VASS301<br />PR</td>
+        <td>BCS301<br />DJ</td>
+        <td>BCC302<br />PR</td>
+        <td>Mentor</td>
+      </tr>
+    </table>
+
+    <div class="sub-info">
+      <table>
+        <tr>
+          <th>SUBCODE</th>
+          <th>SUBNAME</th>
+          <th>FACULTY (Abbr.)</th>
+          <th>LABCODE / TRAINING</th>
+          <th>LAB NAME</th>
+          <th>FACULTY (Abbr.)</th>
+        </tr>
+        <tr>
+          <td>BCS301</td>
+          <td>Data Structure</td>
+          <td>Dr. Dhyanendra Jain (DJ)</td>
+          <td>VADSA301</td>
+          <td>Data Structure Lab + Problem Solving</td>
+          <td>Dr. Dhyanendra Jain (DJ), Dr. Anamika Goel (AG)</td>
+        </tr>
+        <tr>
+          <td>BCS302</td>
+          <td>Computer Organization and Architecture</td>
+          <td>Ms. Parul Phoghat (PP)</td>
+          <td>BCS352</td>
+          <td>Computer Organization and Architecture Lab</td>
+          <td>Mr. Nilesh Sen (NS), Mr. Ashish Kumar (AKM)</td>
+        </tr>
+        <tr>
+          <td>BCS303</td>
+          <td>Discrete Structure & Theory of Logic</td>
+          <td>Ms. Sonika Nagar (SN)</td>
+          <td>VAFSD301</td>
+          <td>Web Designing Workshop + Full Stack Development</td>
+          <td>Mr. Vikas Choudhary (VC), Mr. Utkarsh Dixit (UD)</td>
+        </tr>
+        <tr>
+          <td>BCC302</td>
+          <td>Python Programming</td>
+          <td>Ms. Prachi (PR)</td>
+          <td>VAAIML01</td>
+          <td>Domain Training (AI)</td>
+          <td>Dr. Sony Kumari (SK), Ms. Savee Gupta (SG)</td>
+        </tr>
+        <tr>
+          <td>BVE301</td>
+          <td>Universal Human Value and Professional Ethics</td>
+          <td>Dr. Anupriya (DA)</td>
+          <td>VACL01</td>
+          <td>Domain Training (Cloud Computing)</td>
+          <td>Ms. Parul Phoghat (PP), Mr. Ashish Kumar (AKM)</td>
+        </tr>
+        <tr>
+          <td>BOE305</td>
+          <td>Sensor & Instrumentation</td>
+          <td>Mr. Manish (MM)</td>
+          <td>VANCS01</td>
+          <td>Domain Training (Networking)</td>
+          <td>Ms. Deepti Aggarwal (DA), Mr. Nilesh Sen (NS)</td>
+        </tr>
+        <tr>
+          <td>VASS301</td>
+          <td>Soft Skill</td>
+          <td>Ms. Puja Rohtagi (PR)</td>
+          <td>VABC01</td>
+          <td>Domain Training (Blockchain)</td>
+          <td>Ms. Sonika Nagar (SN)</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
